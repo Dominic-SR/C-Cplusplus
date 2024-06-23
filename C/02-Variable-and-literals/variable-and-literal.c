@@ -1,9 +1,9 @@
-GNU nano 7.2     New Buffer     Modified
-#include <stdio>
+#include <stdio.h>
 int main(){
 int a = 3;
-char b = D;
-float c = 0.23;
+char b = 'D';
+float c = 0.23f;
 
-printf(a,b,c);
+printf("%d %c %f",a ,b, c);
+return 0;
 }
